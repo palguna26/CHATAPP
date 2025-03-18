@@ -1,13 +1,3 @@
-CHATAPP/
-│── .vscode/                   # VS Code settings (optional)
-│── lib/                        # External libraries (JARs if needed)
-│── bin/                        # All Claas files    
-│── src/                        # Java source code
-│   ├── ChatServer.java         # Server handling multiple clients
-│   ├── ChatClient.java         # GUI-based Chat Client
-│   ├── FileServer.java         # Server for file transfers
-│   ├── FileClient.java         # Client to send files
-│   ├── VideoCall.java          # Open Jitsi Meet for video calls
-│   ├── ChatDatabase.java       # SQLite database setup
-│   ├── ChatMiddleware.java     # Starts both server & client automatically
-│── README.md                   # Project documentation
+Advanced Chat Application
+Java, Sockets, SQLite
+Developed a real-time chat application with multi-client messaging, file sharing, and video calls. Features a GUI-based client, multi-threaded server, and SQLite database for chat history. Integrated Jitsi Meet API for seamless video calls.
